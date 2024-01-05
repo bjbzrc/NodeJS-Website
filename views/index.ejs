@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Employee Management</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="w3-container w3-teal">
+      <h1>HR Database Management</h1>
+    </div>
+    <div class="w3-container">
+      <h2>Employees:</h2>
+    
+      <table class="w3-table-all">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td><%- rows[0].first_name%></td>
+          <td><%- rows[0].last_name%></td>
+          <td><%- rows[0].email%></td>
+        </tr>
+        <tr>
+          <td><%- rows[1].first_name%></td>
+          <td><%- rows[1].last_name%></td>
+          <td><%- rows[1].email%></td>
+        </tr>
+        <tr>
+          <td><%- rows[2].first_name%></td>
+          <td><%- rows[2].last_name%></td>
+          <td><%- rows[2].email%></td>
+        </tr>
+      </table>
+    </div>
+    <div class="w3-container">
+      <h2>Locations:</h2>
+    <table class="w3-table-all">
+      <tr>
+        <th>Street Address</th>
+        <th>Postal Code</th>
+        <th>City</th>
+        <th>State/Province</th>
+      </tr>
+      <tr>
+        <td><%- rows[3].street_address%></td>
+        <td><%- rows[3].postal_code%></td>
+        <td><%- rows[3].city%></td>
+        <td><%- rows[3].state_province%></td>
+      </tr>
+      <tr>
+        <td><%- rows[7].street_address%></td>
+        <td><%- rows[7].postal_code%></td>
+        <td><%- rows[7].city%></td>
+        <td><%- rows[7].state_province%></td>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>

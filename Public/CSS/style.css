@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: right;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+div {
+    align-content: center;
+}
+
+#playerDisplay {
+    text-align: center;
+}
+
+#resetBtn {
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.tac {
+    text-align: center;
+    background-color: lightgray;
+    height: 10vh;
+    width: 20vw;
+    padding: 20px;
+    margin-left: 10px;
+}
